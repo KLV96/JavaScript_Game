@@ -23,12 +23,16 @@ html, body{
 .question
 {
   background: #f6b93e;
-  text-align: center;
-  font-size: 35px;
+  text-align: justify;
+  font-size: 25px;
   color: #504b4b;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 3px;
-  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 5px 1px rgba(0,0,0, 0.25);
+  width: 1176px;
+  height: 90px;
 }
 
 .buttons
@@ -37,6 +41,7 @@ html, body{
 	padding: 50px;
 	size: 60%;
 	font-size: 100px;
+	
 
 }
 
@@ -61,7 +66,8 @@ html, body{
 .answer:not(.nohover):hover
 {
   background-color: #f6b93e;;
-  border-color: #aaa;
+    border-color: #aaa;
+  transition: 0.2s;
 }
 
 
@@ -164,7 +170,6 @@ cursor: pointer;
 
 .button span {
     background-color: #E8E8E8;
-    width: 130;
     text-align: center;
 
     background-image:
@@ -192,7 +197,7 @@ cursor: pointer;
 
         .button span:hover {
             color: orange;
-            text-shadow: 0px -1px yellow;
+            text-shadow: 0px -1px black;
             cursor: pointer;
         }
 
