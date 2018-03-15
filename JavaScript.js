@@ -845,7 +845,7 @@ function showFinalScore()
       makeStars(2);
       makeEmptyStars(3);
     }
-    else if (percentage <= 50 && percentage != 0)
+    else if (percentage < 60 && percentage != 0)
     {
       // 1 star
       makeStars(1);
