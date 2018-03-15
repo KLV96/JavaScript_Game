@@ -97,9 +97,11 @@ html, body{
 
 .finalScore
 {
-  text-align: center;
-  padding-right: 200px;
   font-size: 150px;
+  font-family: Roboto, sans-serif;
+  top: 45%;
+  left: 42%;
+  position: absolute;
 }
 
 /* .replayButton
