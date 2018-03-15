@@ -754,7 +754,7 @@ function wrongAnswer(name)
 {
   document.getElementsByName(name)[0].style.backgroundColor  = "red";
   document.getElementsByName(name)[0].style.color  = "black";
-  calculateScore(-2);
+  calculateScore(-3);
   document.getElementsByName(name)[0].disabled= true;
 }
 
